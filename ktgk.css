@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: #DCDCDC; */
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background: gray;
+}
+
+#header h1{
+    color: rgb(50, 50, 156);
+    text-transform: uppercase   ;
+    padding: 0px 0 10px 60px;
+}
+
+#header .nav_header{
+    width: 100%;
+    height: 46px;
+    background-color: blue;
+}
+
+#header .nav_header li{
+    display: inline-block;
+}
+
+#nav > li > a{
+    color: white;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    text-decoration: none; /* để bỏ gạch chân của chữ*/
+    padding: 0px 30px;
+    line-height: 46px; /*đôi đen chọn đc cả khung */
+}
+
+#nav li{
+    border-right: 2px solid gray;
+}
+
+#header .hotline_header{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 18px;
+}
+
+#body{
+    margin: 0 20px;
+    margin-top: 20px;
+    /* height: 1000px; */
+}
+
+.nav_text_right{
+    padding: 0 10px;
+}
+
+#body .nav_body1 {
+    display: inline-flex;
+    width: 100%;
+    /* background-color: chartreuse; */
+    /* height: 1000px; */
+}
+
+.nav_body1_left{
+    display: inline-flex;
+    width: 75%;
+}
+
+.nav_body1_right{
+    width: 25%;
+}
+
+.nav_img_left{
+    width: 70%;
+}
+
+.img_header{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.img_header h2{
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(55, 55, 233);
+    text-transform: uppercase;
+}
+
+.number_button button{
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.img_text img{
+    width: 100%;
+    height: 400px;
+}
+
+.img_text h3{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.img_text p{
+    color: grey;
+}
+
+.text_header_right h4{
+    width: 263px;
+    height: 23px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    border-radius: 10px 10px 0 0;
+    padding-left: 10px;
+    background-color: aqua;
+}
+
+.text_body1_right{
+    width: 263px;
+}
+
+.imgandtext{
+    display: inline-flex;
+}
+
+.img_body1_right img{
+    padding: 10px 0 10px 0;
+    width: 70px;
+    height: 70px;
+}
+
+#img2_body1_right_border{
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.img_text1_right p{
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#body .nav_body1_right{
+    margin: 0px 10px;
+    border-top: 4px solid green;
+    width: 25%;
+    height: 240px;
+    background-color: aqua;
+}
+
+.list_sevendays{
+    margin: 10px 10px;
+    box-sizing: margin-box;
+    background-color: aliceblue;
+    height: 200px;
+}
+
+.button1 button{
+    cursor: pointer;
+    background-color: #DCDCDC;
+    width: 80px;
+    color: white;
+    font-size: 15px;
+    height: 30px;
+}
+
+.button2 button{
+    cursor: pointer;
+    background-color: brown;
+    width: 80px;
+    color: white;
+    font-size: 15px;
+    height: 30px;
+}
+
+.all_button{
+    margin-top: 20px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.list_sevendays input{
+    margin: 10px 10px;
+}
+
+.list_sevendays p{
+    padding-left: 10px;
+}
+
+.nav_body1_right h5{
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.nav_body_right{
+    border-top: 2px solid blue;
+    margin-top: 10px;
+    width: 100%;
+    height: 262px;
+    background-color: darkgrey;
+}
+
+.nav_body_right h6{
+    font-size: 20px;
+    padding: 20px 0px 5px 40px;
+    text-transform: uppercase;
+    color: green;
+} 
+
+.list_useful ul{
+    padding-left: 45px;
+}
+
+.list_useful li{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.nav_body2{
+    width: 100%;
+    display: inline-flex;
+    height: 260px;
+    margin: 0 15px;
+}       
+
+.body2{
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+}
+
+.body2_img_text{
+    width: 20%;
+}
+
+.body2_header header{
+    margin: 0 15px;
+    text-transform: uppercase;
+    color: blue;
+    padding: 10px 0;
+}
+
+.body2_img_text img{
+    width: 200px;
+    height: 150px;
+}
+
+.body2_img_text b{
+    font-size: 15px;
+}
+
+.nav_body3{
+    display: inline-flex;
+    background-color: white;
+    /* background-color: yellow; */
+}
+
+.list_header header{
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: blue;
+    background-color: gainsboro;
+}
+
+.img_list img{
+    margin-left: 20px;
+    padding: 5px 0;
+    width: 90%;
+}
+
+.text_list b{
+    margin-left: 20px;
+}
+
+.text_list p{
+    margin-left: 20px;
+    padding: 5px 0;
+}
+
+#footer .footer1{
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+}
+
+
+#footer .footer2{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(204, 204, 241);
+}
