@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.Member').slick({
-        slidesToShow: 4,
+        slidesToShow: 2,
         slidesToScroll: 2,
         // infinite: true,
         // arrows: true,
@@ -31,8 +31,6 @@ $(document).ready(function(){
                 }
             },
         ]
-      });
-
-    
-    
+      }); 
   });
+
